@@ -1,0 +1,10 @@
+<dataset>
+	<staff id="1" first_name="Jerry" last_name="Zhang" phone="647-975-2503" email="jerryzhang@isda.ca" title="会长" />
+	<staff id="2" first_name="绣萍" last_name="王" phone="416-522-6808" email="" title="副会长" />
+	<staff id="3" first_name="Rogan" last_name="Mo" phone="519-781-8735" email="" title="副会长" />
+	
+	<t_i18n_vertical code="page.about" locale="en" content="about - AAA"/>
+	<t_i18n_vertical code="page.about" locale="zh" content="关于移民"/>
+	<t_i18n_vertical code="page.home" locale="en" content="home - BBB"/>
+	
+</dataset>
