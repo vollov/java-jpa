@@ -11,7 +11,7 @@
 	</appender>
 
 	<appender name="default.file" class="org.apache.log4j.FileAppender">
-		<param name="file" value="d:\\log\\isda.log" />
+		<param name="file" value="c:\\log\\isda.log" />
 		<param name="append" value="true" />
 		<param name="threshold" value="info" />
 		<layout class="org.apache.log4j.PatternLayout">
@@ -29,26 +29,32 @@
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
 		<level value="info" />
+		<appender-ref ref="console" />
 	</logger>
 	
 	<logger name="org.springframework.beans">
 		<level value="info" />
+		<appender-ref ref="console" />
 	</logger>
 	
 	<logger name="org.springframework.context">
 		<level value="info" />
+		<appender-ref ref="console" />
 	</logger>
 
 	<logger name="org.springframework.web">
 		<level value="info" />
+		<appender-ref ref="console" />
 	</logger>
     
     <logger name="org.springframework.security">
         <level value="debug" />
+        <appender-ref ref="console" />
     </logger>      
     
     <logger name="org.hibernate.validator">
         <level value="debug" />
+        <appender-ref ref="console" />
     </logger>    
 
 	<!-- Root Logger -->

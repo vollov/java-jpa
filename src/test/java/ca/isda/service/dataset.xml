@@ -7,4 +7,8 @@
 	<t_i18n_vertical code="page.about" locale="zh" content="关于移民"/>
 	<t_i18n_vertical code="page.home" locale="en" content="home - BBB"/>
 	
+	<address id="1" city="Kitchener" street="48 steepleridge st" zip_code="n2p2w3" active="TRUE" />
+	<address id="2" city="Toronto" street="11 greenbush rd" zip_code="1m12p3" active="TRUE" />
+	
+	<event id="1" address_id="1" description="tea party" event_time="2014-10-13 19:30:00" active="TRUE" />
 </dataset>
